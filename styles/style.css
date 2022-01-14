@@ -5,13 +5,13 @@ body {
   font-family: "Poppins", sans-serif;
 }
 /* First Section Styles */
-main {
+/* main {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   margin-left: 60px;
   margin-top: 85px;
   margin-right: 150px;
-}
+} */
 .introduction {
   display: flex;
 }
@@ -36,4 +36,16 @@ main {
   border-radius: 25px;
   padding: 10px 24px 10px 15px;
   background-color: #e02c6d;
+}
+/* Logo Styels */
+.brand-logos {
+  display: flex;
+  margin-top: 50px;
+  box-shadow: inset 0px 11px 8px -10px #ccc, inset 0px -11px 8px -10px #ccc;
+}
+.logo {
+  padding: 50px;
+}
+#alibaba {
+  padding-left: 75px;
 }
