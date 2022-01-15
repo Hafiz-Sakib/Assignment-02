@@ -23,7 +23,7 @@ body {
   margin-top: 85px; */
   padding-left: 60px;
 }
-.image {
+.main-camera-image {
   margin-left: 200px;
 }
 .influencer {
@@ -37,7 +37,7 @@ body {
   padding: 10px 24px 10px 15px;
   background-color: #e02c6d;
 }
-/* Logo Styels */
+/*................................................................................................ Logo Styels.......................................................................... */
 .brand-logos {
   display: flex;
   margin-top: 50px;
@@ -48,4 +48,39 @@ body {
 }
 #alibaba {
   padding-left: 75px;
+}
+/*...................................................................................... Product Styles...........................................................................................*/
+.collection-heading {
+  text-align: center;
+}
+.products {
+  position: absolute;
+  width: 329px;
+  height: 550px;
+  left: 196px;
+  top: 1035px;
+  background: #ffffff;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+}
+.product-detail {
+  font-size: 28px;
+}
+.price {
+  font-size: 24px;
+}
+.rating {
+  display: flex;
+}
+.fa-star.filled {
+  color: tomato;
+}
+.fa-star.empty {
+  color: #aeaeae;
+}
+.in-number {
+  padding-left: 10px;
+}
+.after-sales {
+  color: #787885;
 }
