@@ -148,7 +148,7 @@ body {
   font-size: 30px;
   padding-top: -15px;
 }
-/* Media Queries Strated */
+/* Media Queries For Mobile Devices Strated */
 @media only screen and (max-width: 688px) {
   .introduction {
     display: grid;
@@ -181,5 +181,48 @@ body {
   }
   .info {
     margin-top: -200px;
+  }
+}
+/* Media Queries For Mobile Devices Strated */
+
+/* Media Queries For Tablet Devices Strated  */
+@media only screen and (min-width: 689px) and (max-width: 991px) {
+  .introduction {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .about-influencer {
+    width: 60%;
+  }
+  .main-camera-image {
+    margin-left: -35px;
+    margin-top: 250px;
+  }
+  .brand-logos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #alibaba {
+    margin-left: -75px;
+  }
+  .products {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* margin-left: -150px; */
+  }
+  .bonus-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .amazon-photo {
+    margin-top: -150px;
+    margin-left: -50px;
+    width: 90%;
+  }
+  .info {
+    margin-top: -110px;
+    margin-left: -50px;
+    width: 75%;
+    text-align: justify;
   }
 }
