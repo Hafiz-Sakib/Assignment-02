@@ -148,3 +148,38 @@ body {
   font-size: 30px;
   padding-top: -15px;
 }
+/* Media Queries Strated */
+@media only screen and (max-width: 688px) {
+  .introduction {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .about-influencer {
+    width: 70%;
+  }
+  .main-camera-image {
+    margin-left: -35px;
+    margin-top: 200px;
+  }
+  .brand-logos {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  #alibaba {
+    margin-left: -75px;
+  }
+  .products {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .bonus-section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .amazon-photo {
+    margin-top: -100px;
+  }
+  .info {
+    margin-top: -200px;
+  }
+}
