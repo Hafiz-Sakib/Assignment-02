@@ -50,17 +50,30 @@ body {
   padding-left: 75px;
 }
 /*...................................................................................... Product Styles...........................................................................................*/
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  margin-top: -100px;
+  justify-content: center;
+  padding: 171px 171px 0px 171px;
+}
 .collection-heading {
+  margin-top: 40px;
   text-align: center;
 }
-.products {
-  position: absolute;
+.product {
+  /* position: absolute; */
   width: 329px;
-  height: 550px;
+  height: 490px;
+  line-height: 15px;
   left: 196px;
-  top: 1035px;
+  margin-top: 0px;
+  padding-left: 25px;
+  padding-top: 20px;
   background: #ffffff;
-  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
 }
 .product-detail {
@@ -78,7 +91,7 @@ body {
 .fa-star.empty {
   color: #aeaeae;
 }
-.in-number {
+.ratings-in-number {
   padding-left: 10px;
 }
 .after-sales {
