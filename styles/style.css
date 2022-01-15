@@ -16,6 +16,16 @@ body {
 .main-camera-image {
   margin-left: 200px;
 }
+/* Animation Part started  */
+.main-camera-image:hover {
+  transform: scale(0.8) rotate(360deg);
+  transition: transform 3s linear;
+}
+.introduction:hover {
+  background-color: rgb(152, 251, 152);
+  transform: scale(1.1);
+}
+/* Animation Part Finished */
 .influencer {
   color: red;
 }
@@ -67,6 +77,12 @@ body {
   box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
 }
+/* Animation Part Started */
+.product-image:hover {
+  transform: scale(0.8) rotate(360deg);
+  transition: transform 3s ease-in;
+}
+/* Animation finished */
 .product-detail {
   font-size: 28px;
 }
