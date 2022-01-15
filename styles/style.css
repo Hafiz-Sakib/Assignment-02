@@ -99,7 +99,7 @@ body {
   text-align: justify;
   width: 60%;
   height: 30x;
-  padding-left: 60px;
+  padding-right: 10px;
   padding: 60px;
 }
 .Everything {
@@ -109,4 +109,26 @@ body {
   width: 90%;
   margin-top: 120px;
   margin-left: 50px;
+  margin-bottom: 200px;
+}
+/* ..........................................................................................Bonus Section ended................................................................. */
+/* ................................................................................copyright section started...................................................... */
+.copyright {
+  text-align: center;
+  color: white;
+  background-color: #0a0826;
+  padding-top: 30px;
+}
+.info-owner {
+  text-align: center;
+  margin-top: 20px;
+}
+.info-owner a {
+  color: blue;
+  text-decoration: none;
+}
+.social-media {
+  color: white;
+  font-size: 30px;
+  padding-top: -15px;
 }
